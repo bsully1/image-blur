@@ -10,9 +10,10 @@ class Image
    end
   end
 
-  def blur
+  def blur(distance = 1)
+    distance.times do
       blur_image
-    
+    end
   end
 
 
